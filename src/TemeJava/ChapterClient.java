@@ -16,13 +16,13 @@ public class ChapterClient {
 
 		Chapter[] cpt = { cuprins, introducere, variabile, variabileLocale, variabileStatice, clase };
 		// showChapters(cpt);
-		cuprins.display("", 0);
+		cuprins.display("");
 	}
 
-	private static void showChapters(Chapter[] Chapter) {
-		for (Chapter emp : Chapter) {
-			emp.show();
-		}
-	}
+	// private static void showChapters(Chapter[] Chapter) {
+	// for (Chapter emp : Chapter) {
+	// emp.show();
+	// }
+	// }
 
 }

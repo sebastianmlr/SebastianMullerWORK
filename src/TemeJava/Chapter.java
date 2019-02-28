@@ -23,11 +23,13 @@ public class Chapter {
 		this.subChapter = subCpt;
 	}
 
-	public void display(String prefix, int cnt) {
+	public void display(String prefix) {
 		System.out.println(prefix + name);
-		for (Chapter cpt : subChapter) {
-			cnt += 1;
-			cpt.display(prefix + cnt + ".", cnt);
+		// cnt = 0;
+		// for (Chapter cpt : subChapter) {
+		for (int i = 0; i < subChapter.length; i++) {
+			// cnt += 1;
+			subChapter[i].display(prefix + (i + 1) + ".");
 
 		}
 	}
