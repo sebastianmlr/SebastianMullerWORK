@@ -8,7 +8,7 @@ public class TestME2 {
 	static boolean succesorOK, validareOK;
 
 	public static void main(String[] args) {
-		System.out.println(Arrays.toString(getPermutations(898)));
+		System.out.println(Arrays.toString(getPermutations(2211)));
 		// System.out.println(Arrays.toString(intToArray(153)));
 	}
 

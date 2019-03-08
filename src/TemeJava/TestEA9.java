@@ -19,3 +19,5 @@ public class TestEA9 {
 		return count;
 	}
 }
+//varianta cu un singur for considerand ca ai sirul sortat
+// de vazut testele google de java - youtube

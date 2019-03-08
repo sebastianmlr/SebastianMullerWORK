@@ -9,8 +9,9 @@ public class TestEA7 {
 
 	public static int nthSmallest(int[] sir, int n) {
 		Arrays.sort(sir);
-		System.out.println(Arrays.toString(sir));
+		// System.out.println(Arrays.toString(sir));
 		return n <= sir.length ? sir[n - 1] : -1;
 	}
 
 }
+//este posibil si recursiv

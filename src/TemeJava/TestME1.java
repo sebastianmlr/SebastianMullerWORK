@@ -18,7 +18,7 @@ public class TestME1 {
 		while (etajMaxStiva > 0) {
 
 			etajActualInStiva = 1;
-			stivaBtr[etajActualInStiva] = 0;
+			stivaBtr[1] = 0;
 			while (etajActualInStiva > 0) {
 				do {
 					succesorOK = succesor();
