@@ -2,7 +2,7 @@ package TemeJava;
 
 public class TestME4 {
 	public static void main(String[] args) {
-		System.out.println(evaluate("10*5+7*4/2-1*10"));
+		System.out.println(evaluate("5-2-1"));
 	}
 
 	public static int evaluate(String expression) {

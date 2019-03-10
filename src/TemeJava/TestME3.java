@@ -12,9 +12,8 @@ public class TestME3 {
 	}
 
 	public static int[][] fill(int[][] matrix, int x, int y) {
-		if (matrix[x][y] == 1 || matrix[x][y] == 2) {
-			return matrix;
-		} else {
+		if (matrix[x][y] != 1 && matrix[x][y] != 2) {
+
 			// System.out.println(Arrays.deepToString(matrix));
 			matrix[x][y] = 2;
 
