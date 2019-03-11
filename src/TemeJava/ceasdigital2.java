@@ -18,7 +18,6 @@ public class ceasdigital2 {
 		// }
 		while (true) {
 			h = (System.currentTimeMillis() / 1000 / 60 / 60 % 24) + 2;
-			System.out.println(h);
 			m = System.currentTimeMillis() / 1000 / 60 % 60;
 			s = System.currentTimeMillis() / 1000 % 60;
 			for (int i = 0; i <= 2; i++) {
@@ -27,6 +26,7 @@ public class ceasdigital2 {
 				System.out.print(digitStrings[(int) (m / 10)][i] + digitStrings[(int) (m % 10)][i]);
 				System.out.print(i == 0 ? "   " : " o ");
 				System.out.println(digitStrings[(int) (s / 10)][i] + digitStrings[(int) (s % 10)][i]);
+
 			}
 			Thread.sleep(1000);
 
