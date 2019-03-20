@@ -2,7 +2,7 @@ package test1;
 
 public class Problema4 {
 	public static void main(String[] args) {
-		combinations("", "abc", 1);
+		combinations("", "abcd", 2);
 	}
 	// public static void combinations(String s, int n) {
 
